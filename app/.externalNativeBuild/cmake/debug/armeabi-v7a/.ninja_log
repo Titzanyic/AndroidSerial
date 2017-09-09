@@ -1,0 +1,13 @@
+# ninja log v5
+0	114	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	3bfec42b17f5a6f3
+114	159	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
+0	192	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	3bfec42b17f5a6f3
+192	258	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
+1	149	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	3bfec42b17f5a6f3
+149	192	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
+1	70	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	3bfec42b17f5a6f3
+70	98	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
+0	179	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	3bfec42b17f5a6f3
+179	234	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
+1	95	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	3bfec42b17f5a6f3
+95	130	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea

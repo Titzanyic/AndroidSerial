@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/zhangyongcun/code/android/AndroidSerial/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhangyongcun/code/android/AndroidSerial/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"serial_port-lib-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "serial_port-lib",
+			"buildCommand" : "/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhangyongcun/code/android/AndroidSerial/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target serial_port-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhangyongcun/code/sdk/ndk-bundle/sysroot -Dserial_port_lib_EXPORTS  -isystem /Users/zhangyongcun/code/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/zhangyongcun/code/android/AndroidSerial/app/src/main/cpp/SerialPort.c",
+					"workingDirectory" : "/Users/zhangyongcun/code/android/AndroidSerial/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/zhangyongcun/code/android/AndroidSerial/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so",
+			"toolchain" : "12799022815055573213"
+		}
+	},
+	"toolchains" : 
+	{
+		"12799022815055573213" : 
+		{
+			"cCompilerExecutable" : "/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

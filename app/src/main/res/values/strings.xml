@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidSerial</string>
+    <string name="send_hint">请输入发送的数据</string>
+    <string name="send">发送</string>
+</resources>

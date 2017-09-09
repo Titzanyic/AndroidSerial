@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/zhangyongcun/code/android/AndroidSerial/library/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhangyongcun/code/android/AndroidSerial/library/.externalNativeBuild/cmake/externalNativeBuild/x86_64 --target clean"
+	],
+	"libraries" : 
+	{
+		"serial_port-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "serial_port-lib",
+			"buildCommand" : "/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhangyongcun/code/android/AndroidSerial/library/.externalNativeBuild/cmake/externalNativeBuild/x86_64 --target serial_port-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhangyongcun/code/sdk/ndk-bundle/sysroot -Dserial_port_lib_EXPORTS  -isystem /Users/zhangyongcun/code/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/zhangyongcun/code/android/AndroidSerial/library/src/main/cpp/SerialPort.c",
+					"workingDirectory" : "/Users/zhangyongcun/code/android/AndroidSerial/library/.externalNativeBuild/cmake/externalNativeBuild/x86_64"
+				}
+			],
+			"output" : "/Users/zhangyongcun/code/android/AndroidSerial/library/build/intermediates/cmake/externalNativeBuild/obj/x86_64/libserial_port-lib.so",
+			"toolchain" : "12799022815055573213"
+		}
+	},
+	"toolchains" : 
+	{
+		"12799022815055573213" : 
+		{
+			"cCompilerExecutable" : "/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

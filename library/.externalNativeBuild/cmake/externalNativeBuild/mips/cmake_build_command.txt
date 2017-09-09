@@ -1,0 +1,15 @@
+Executable : /Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/Users/zhangyongcun/code/android/AndroidSerial/library
+-B/Users/zhangyongcun/code/android/AndroidSerial/library/.externalNativeBuild/cmake/externalNativeBuild/mips
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=mips
+-DANDROID_NDK=/Users/zhangyongcun/code/sdk/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zhangyongcun/code/android/AndroidSerial/library/build/intermediates/cmake/externalNativeBuild/obj/mips
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/zhangyongcun/code/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_PLATFORM=android-22
+-DCMAKE_CXX_FLAGS=
+jvmArgs : 
+

@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/zhangyongcun/code/android/AndroidSerial/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhangyongcun/code/android/AndroidSerial/app/.externalNativeBuild/cmake/debug/mips64 --target clean"
+	],
+	"libraries" : 
+	{
+		"serial_port-lib-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "serial_port-lib",
+			"buildCommand" : "/Users/zhangyongcun/code/sdk/cmake/3.6.3155560/bin/cmake --build /Users/zhangyongcun/code/android/AndroidSerial/app/.externalNativeBuild/cmake/debug/mips64 --target serial_port-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhangyongcun/code/sdk/ndk-bundle/sysroot -Dserial_port_lib_EXPORTS  -isystem /Users/zhangyongcun/code/sdk/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=22 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/zhangyongcun/code/android/AndroidSerial/app/src/main/cpp/SerialPort.c",
+					"workingDirectory" : "/Users/zhangyongcun/code/android/AndroidSerial/app/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "/Users/zhangyongcun/code/android/AndroidSerial/app/build/intermediates/cmake/debug/obj/mips64/libserial_port-lib.so",
+			"toolchain" : "12799022815055573213"
+		}
+	},
+	"toolchains" : 
+	{
+		"12799022815055573213" : 
+		{
+			"cCompilerExecutable" : "/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhangyongcun/code/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
