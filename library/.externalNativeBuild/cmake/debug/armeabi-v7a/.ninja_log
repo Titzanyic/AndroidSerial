@@ -9,3 +9,5 @@
 89	136	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
 0	371	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	7aaaf85d22fc6f05
 372	572	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
+0	260	0	CMakeFiles/serial_port-lib.dir/src/main/cpp/SerialPort.c.o	7aaaf85d22fc6f05
+260	344	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libserial_port-lib.so	96abe1317310dbea
