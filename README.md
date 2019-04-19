@@ -1,5 +1,4 @@
-# AndroidSerial-
-android serial port communication
+# AndroidSerial
 
 # Android 串口通讯 SerialPort
 
@@ -39,6 +38,3 @@ static {
         System.loadLibrary("serial_port-lib");
     }
 ```
-
-### Java 中获取设备
-
