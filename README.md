@@ -1,5 +1,3 @@
-# AndroidSerial
-
 # Android 串口通讯 SerialPort
 
 ### 访问设备
